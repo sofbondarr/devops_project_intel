@@ -18,6 +18,7 @@ jobs:
       with:
         host: 176.98.8.185
         username: sonja
+        key: ${{ secrets.DEPLOY_KEY }}
         known_hosts: ${{ secrets.KNOWN_HOSTS }}
         script: |
           cd ~/devops_project_intel
