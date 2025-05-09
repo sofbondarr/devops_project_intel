@@ -4,7 +4,6 @@ declare -A users
 users=(["sftp1"]="user1" ["sftp2"]="user2" ["sftp3"]="user3")
 
 echo "Setting up SSH ..."
-
 for vm in "${!users[@]}"; do
     user=${users[$vm]}
     echo "Generation key $vm for $user"
