@@ -1,4 +1,4 @@
-#!/home/sonja/devops_project_intel/venv/bin/python3
+#!/home/sonja/devops_project_intel/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
